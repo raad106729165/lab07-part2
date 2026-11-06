@@ -1,7 +1,7 @@
 /*style.css
 author [your name]
 date [enter date]
-A style sheet for index-css.html
+A style sheet for register.html (general and form styles)
 */
 
 nav ul
@@ -91,3 +91,32 @@ aside {	float: right;
  nav { 
 	min-width: 50em;
    }
+
+/* ---------- Registration form styles ---------- */
+
+#person {
+	float : left;
+	width: 40%;
+	margin: 10px;
+}
+#trip {
+	float : left;
+	width: 40%;
+	margin: 10px;
+}
+
+ 	
+.chkbox {
+	clear: left;
+	float: left;
+	}
+#bottom {
+	clear: both
+	}
+	
+nav,  article {
+	max-width: 60em;
+	}
+article {
+ min-width: 20em;
+ }
